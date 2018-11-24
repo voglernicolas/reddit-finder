@@ -58,11 +58,10 @@ function showMessage(message, className) {
   const div = document.createElement('div')
   // Add classes
   div.className = `alert ${className}`
-  // Add text
+  
   div.appendChild(document.createTextNode(message))
   // Get parent
   const searchContainer = document.getElementById('search-container')
-  // Get search
   const search = document.getElementById('search')
 
   // Insert message
